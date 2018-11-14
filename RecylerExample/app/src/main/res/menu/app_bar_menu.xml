@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_share"
+        android:title="Share"
+        android:icon="@mipmap/ic_share"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:title="Search"
+        android:icon="@mipmap/ic_search"
+        android:id="@+id/action_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_contact"
+        android:title="Contact"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_print"
+        android:title="Print"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_exit"
+        android:title="Exit"
+        app:showAsAction="never"
+        />
+
+</menu>
